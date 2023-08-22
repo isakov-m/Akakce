@@ -34,8 +34,9 @@ public class LoginTest extends BaseDriver {
 
         WebElement loginClcik= driver.findElement(By.xpath("//input[@type='submit' and @class='s' and @value='Giriş yap']"));
         loginClcik.click();
+        MyFunc.Bekle(1);
 
-        //BekleVeKapat();
+        BekleVeKapat();
 
 
     }
